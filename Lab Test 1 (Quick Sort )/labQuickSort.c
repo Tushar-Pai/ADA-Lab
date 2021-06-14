@@ -53,6 +53,7 @@ void printArray(int arr[], int n)
     printf("\n");
 }
 
+// Modification function
 void kth_min_element()
 {
     int k;
@@ -85,7 +86,7 @@ int main()
     printf("The sorted array is: \n");
     printArray(arr, n);
 
-    kth_min_element();
+    kth_min_element(); // Modification function call
 
     printf("The time taken is %.10f\n", difftime(end, start) / CLOCKS_PER_SEC);
     return 0;
